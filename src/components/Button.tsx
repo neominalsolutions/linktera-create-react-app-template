@@ -6,7 +6,7 @@ type ButtonColor = 'info' | 'success' | 'warning' | 'danger' | 'default';
 // component props , (children veya type, action props)
 
 // Pure Components ismi veriyoruz: Bunların içerisinde herhangi bir şekilde state çalışmaz.
-// Birden fazla sayfaya dağılacağı için zaten içerisinde state bulundurmamalıdır. Gereksiz rendering durumları ortaya çıkabilir. 
+// Birden fazla sayfaya dağılacağı için zaten içerisinde state bulundurmamalıdır. Gereksiz rendering durumları ortaya çıkabilir.
 type ButtonPropsType = {
 	variant: ButtonVariant;
 	color: ButtonColor;
@@ -17,9 +17,7 @@ type ButtonPropsType = {
 function Button({ variant, color, children, onButtonClick }: ButtonPropsType) {
 	const colorValue = `${variant === 'link' ? 'link-' + color : color}`;
 
-
-    // back-ticks ``
-
+	// back-ticks ``
 	return (
 		<>
 			<button
