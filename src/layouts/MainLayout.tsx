@@ -15,7 +15,8 @@ function MainLayout() {
 						color: 'white',
 					}}
 				>
-					<Link to="/button-demo">Button Demo</Link>
+					<Link to="/button-demo">Button Demo</Link>{' '}
+					<Link to="/todo-demo">Todo Demo</Link>
 				</nav>
 				<main>
 					<Outlet />

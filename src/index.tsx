@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import MainLayout from './layouts/MainLayout';
 import ButonDemoPage from './pages/ButtonDemo';
+import TodoPage from './pages/TodoDemo';
 
 const router = createBrowserRouter([
 	{
@@ -15,6 +16,10 @@ const router = createBrowserRouter([
 			{
 				path: '/button-demo',
 				Component: ButonDemoPage,
+			},
+			{
+				path: '/todo-demo',
+				Component: TodoPage,
 			},
 		],
 	},

@@ -1,0 +1,30 @@
+
+
+
+.list {
+  display: flex;
+  flex-direction: column;
+  background: #3399ff;
+  padding: 20px;
+  list-style: none;
+}
+
+.list-item {
+  background: #ffe5e5;
+  color: darkred;
+  padding: 5px;
+  margin-left: 35px;
+}
+
+
+.flex  {
+    display: flex;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
